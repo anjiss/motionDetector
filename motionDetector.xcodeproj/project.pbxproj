@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B00048D1C63D7A100316E4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B00048C1C63D7A100316E4E /* AppDelegate.swift */; };
+		1B00048F1C63D7A100316E4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B00048E1C63D7A100316E4E /* ViewController.swift */; };
+		1B0004921C63D7A100316E4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B0004901C63D7A100316E4E /* Main.storyboard */; };
+		1B0004951C63D7A100316E4E /* motionDetector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B0004931C63D7A100316E4E /* motionDetector.xcdatamodeld */; };
+		1B0004971C63D7A100316E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0004961C63D7A100316E4E /* Assets.xcassets */; };
+		1B00049A1C63D7A100316E4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B0004981C63D7A100316E4E /* LaunchScreen.storyboard */; };
+		1B0004A51C63D7A100316E4E /* motionDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0004A41C63D7A100316E4E /* motionDetectorTests.swift */; };
+		1B0004B01C63D7A100316E4E /* motionDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0004AF1C63D7A100316E4E /* motionDetectorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B0004A11C63D7A100316E4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B0004811C63D7A100316E4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B0004881C63D7A100316E4E;
+			remoteInfo = motionDetector;
+		};
+		1B0004AC1C63D7A100316E4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B0004811C63D7A100316E4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B0004881C63D7A100316E4E;
+			remoteInfo = motionDetector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B0004891C63D7A100316E4E /* motionDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = motionDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B00048C1C63D7A100316E4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B00048E1C63D7A100316E4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B0004911C63D7A100316E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B0004941C63D7A100316E4E /* motionDetector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = motionDetector.xcdatamodel; sourceTree = "<group>"; };
+		1B0004961C63D7A100316E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B0004991C63D7A100316E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B00049B1C63D7A100316E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B0004A01C63D7A100316E4E /* motionDetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = motionDetectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0004A41C63D7A100316E4E /* motionDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motionDetectorTests.swift; sourceTree = "<group>"; };
+		1B0004A61C63D7A100316E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B0004AB1C63D7A100316E4E /* motionDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = motionDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0004AF1C63D7A100316E4E /* motionDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motionDetectorUITests.swift; sourceTree = "<group>"; };
+		1B0004B11C63D7A100316E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B0004861C63D7A100316E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B00049D1C63D7A100316E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B0004A81C63D7A100316E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B0004801C63D7A100316E4E = {
+			isa = PBXGroup;
+			children = (
+				1B00048B1C63D7A100316E4E /* motionDetector */,
+				1B0004A31C63D7A100316E4E /* motionDetectorTests */,
+				1B0004AE1C63D7A100316E4E /* motionDetectorUITests */,
+				1B00048A1C63D7A100316E4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B00048A1C63D7A100316E4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B0004891C63D7A100316E4E /* motionDetector.app */,
+				1B0004A01C63D7A100316E4E /* motionDetectorTests.xctest */,
+				1B0004AB1C63D7A100316E4E /* motionDetectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B00048B1C63D7A100316E4E /* motionDetector */ = {
+			isa = PBXGroup;
+			children = (
+				1B00048C1C63D7A100316E4E /* AppDelegate.swift */,
+				1B00048E1C63D7A100316E4E /* ViewController.swift */,
+				1B0004901C63D7A100316E4E /* Main.storyboard */,
+				1B0004961C63D7A100316E4E /* Assets.xcassets */,
+				1B0004981C63D7A100316E4E /* LaunchScreen.storyboard */,
+				1B00049B1C63D7A100316E4E /* Info.plist */,
+				1B0004931C63D7A100316E4E /* motionDetector.xcdatamodeld */,
+			);
+			path = motionDetector;
+			sourceTree = "<group>";
+		};
+		1B0004A31C63D7A100316E4E /* motionDetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B0004A41C63D7A100316E4E /* motionDetectorTests.swift */,
+				1B0004A61C63D7A100316E4E /* Info.plist */,
+			);
+			path = motionDetectorTests;
+			sourceTree = "<group>";
+		};
+		1B0004AE1C63D7A100316E4E /* motionDetectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B0004AF1C63D7A100316E4E /* motionDetectorUITests.swift */,
+				1B0004B11C63D7A100316E4E /* Info.plist */,
+			);
+			path = motionDetectorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B0004881C63D7A100316E4E /* motionDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B0004B41C63D7A100316E4E /* Build configuration list for PBXNativeTarget "motionDetector" */;
+			buildPhases = (
+				1B0004851C63D7A100316E4E /* Sources */,
+				1B0004861C63D7A100316E4E /* Frameworks */,
+				1B0004871C63D7A100316E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = motionDetector;
+			productName = motionDetector;
+			productReference = 1B0004891C63D7A100316E4E /* motionDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B00049F1C63D7A100316E4E /* motionDetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B0004B71C63D7A100316E4E /* Build configuration list for PBXNativeTarget "motionDetectorTests" */;
+			buildPhases = (
+				1B00049C1C63D7A100316E4E /* Sources */,
+				1B00049D1C63D7A100316E4E /* Frameworks */,
+				1B00049E1C63D7A100316E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B0004A21C63D7A100316E4E /* PBXTargetDependency */,
+			);
+			name = motionDetectorTests;
+			productName = motionDetectorTests;
+			productReference = 1B0004A01C63D7A100316E4E /* motionDetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B0004AA1C63D7A100316E4E /* motionDetectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B0004BA1C63D7A100316E4E /* Build configuration list for PBXNativeTarget "motionDetectorUITests" */;
+			buildPhases = (
+				1B0004A71C63D7A100316E4E /* Sources */,
+				1B0004A81C63D7A100316E4E /* Frameworks */,
+				1B0004A91C63D7A100316E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B0004AD1C63D7A100316E4E /* PBXTargetDependency */,
+			);
+			name = motionDetectorUITests;
+			productName = motionDetectorUITests;
+			productReference = 1B0004AB1C63D7A100316E4E /* motionDetectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B0004811C63D7A100316E4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Anjiss;
+				TargetAttributes = {
+					1B0004881C63D7A100316E4E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1B00049F1C63D7A100316E4E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1B0004881C63D7A100316E4E;
+					};
+					1B0004AA1C63D7A100316E4E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1B0004881C63D7A100316E4E;
+					};
+				};
+			};
+			buildConfigurationList = 1B0004841C63D7A100316E4E /* Build configuration list for PBXProject "motionDetector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B0004801C63D7A100316E4E;
+			productRefGroup = 1B00048A1C63D7A100316E4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B0004881C63D7A100316E4E /* motionDetector */,
+				1B00049F1C63D7A100316E4E /* motionDetectorTests */,
+				1B0004AA1C63D7A100316E4E /* motionDetectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B0004871C63D7A100316E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B00049A1C63D7A100316E4E /* LaunchScreen.storyboard in Resources */,
+				1B0004971C63D7A100316E4E /* Assets.xcassets in Resources */,
+				1B0004921C63D7A100316E4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B00049E1C63D7A100316E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B0004A91C63D7A100316E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B0004851C63D7A100316E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B00048F1C63D7A100316E4E /* ViewController.swift in Sources */,
+				1B0004951C63D7A100316E4E /* motionDetector.xcdatamodeld in Sources */,
+				1B00048D1C63D7A100316E4E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B00049C1C63D7A100316E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0004A51C63D7A100316E4E /* motionDetectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B0004A71C63D7A100316E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0004B01C63D7A100316E4E /* motionDetectorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B0004A21C63D7A100316E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B0004881C63D7A100316E4E /* motionDetector */;
+			targetProxy = 1B0004A11C63D7A100316E4E /* PBXContainerItemProxy */;
+		};
+		1B0004AD1C63D7A100316E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B0004881C63D7A100316E4E /* motionDetector */;
+			targetProxy = 1B0004AC1C63D7A100316E4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B0004901C63D7A100316E4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B0004911C63D7A100316E4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B0004981C63D7A100316E4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B0004991C63D7A100316E4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B0004B21C63D7A100316E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B0004B31C63D7A100316E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B0004B51C63D7A100316E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = motionDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AJS.motionDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B0004B61C63D7A100316E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = motionDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AJS.motionDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1B0004B81C63D7A100316E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = motionDetectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AJS.motionDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/motionDetector.app/motionDetector";
+			};
+			name = Debug;
+		};
+		1B0004B91C63D7A100316E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = motionDetectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AJS.motionDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/motionDetector.app/motionDetector";
+			};
+			name = Release;
+		};
+		1B0004BB1C63D7A100316E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = motionDetectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AJS.motionDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = motionDetector;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1B0004BC1C63D7A100316E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = motionDetectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AJS.motionDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = motionDetector;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B0004841C63D7A100316E4E /* Build configuration list for PBXProject "motionDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0004B21C63D7A100316E4E /* Debug */,
+				1B0004B31C63D7A100316E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B0004B41C63D7A100316E4E /* Build configuration list for PBXNativeTarget "motionDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0004B51C63D7A100316E4E /* Debug */,
+				1B0004B61C63D7A100316E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B0004B71C63D7A100316E4E /* Build configuration list for PBXNativeTarget "motionDetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0004B81C63D7A100316E4E /* Debug */,
+				1B0004B91C63D7A100316E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B0004BA1C63D7A100316E4E /* Build configuration list for PBXNativeTarget "motionDetectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0004BB1C63D7A100316E4E /* Debug */,
+				1B0004BC1C63D7A100316E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1B0004931C63D7A100316E4E /* motionDetector.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1B0004941C63D7A100316E4E /* motionDetector.xcdatamodel */,
+			);
+			currentVersion = 1B0004941C63D7A100316E4E /* motionDetector.xcdatamodel */;
+			path = motionDetector.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1B0004811C63D7A100316E4E /* Project object */;
+}
